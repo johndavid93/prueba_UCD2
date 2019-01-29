@@ -11,7 +11,7 @@ node {
    step([$class: 'UCDeployPublisher',
 
 // siteName: El nombre del servidor de IBM UrbanCode Deploy configurado en la página Configurar sistema de Jenkins.
-        siteName: 'UCD_DEPLOY',
+        siteName: 'URBAN_PRD_APP',
 
 // Especifique acciones para realizar contra un solo componente.
         component: [
@@ -28,7 +28,7 @@ node {
                 componentTemplate: '',
 
 // componentApplication: el nombre de una aplicación a la que se agrega el componente.
-                componentApplication: 'Jenkins'
+                componentApplication: ''
             ],
 
 // entrega: Realizar una importación de la versión del componente.
